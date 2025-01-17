@@ -1,0 +1,518 @@
+*
+{
+    padding: 0px 0px;
+    /* margin:0px 0px;  */
+}
+
+.page1
+{
+    width: 100%;
+    height: 95svh;
+    background-image: url("Netflix_background.png");
+    /* background-image: linear-gradient(to bottom,black,transparent,black); */
+    background-size: 100% 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    /* border-bottom: 3px solid snow; */
+}
+.head
+{
+    width: 80%;
+    height: 10%;
+    /* background-color: gray; */
+    display: flex;
+    justify-content: space-between;
+}
+.icon
+{
+    width: 190px;
+    height: 60px;
+    margin-top: 5px;
+    /* background-color: blue; */
+    background-image: url("netflexxxx.png");
+    background-size: 100% 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: red;
+     font-size: 30px;
+     font-family: verdana;
+     font-weight: 200px;
+}
+.options{
+    width:240px ;
+    height: 50px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1%;
+}
+.btn1
+{
+    width: 80px;
+    background-color: red;
+    color: white;
+    padding: 5px 5px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+.btn1:hover
+{
+    background-color: rgb(181, 68, 68);
+}
+.n1
+{
+    border: 1px solid snow;
+    color: snow;
+    padding: 8px 8px;
+    font-size: 15px;
+    background-color: black;
+    border-radius: 3px;
+    font-weight: thick;
+}
+.unlimited
+{
+    width: 80%;
+    height: 60%;
+    /* background-color: gray; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+    top: 45px;
+
+}
+.un
+{
+    width: 90%;
+    height: 15%;
+    /* background-color: blue; */
+    color: white;
+    font-family: verdana;
+}
+.line1
+{
+    color: white;
+    /* font-weight: 100px; */
+    font-size: 23px;
+}
+.line2
+{
+    font-size: 17px;
+}
+.heading
+{
+    font-size: 50px;
+}
+.emaill
+{
+    width: 50%;
+    height: 10svh;
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 50px;
+}
+.start2
+{
+    width:150px;
+    height: 50px;
+    background-color: red;
+    color: snow;
+    padding: 10px 10px;
+    border: 0px;
+    font-size: 22px;
+    border-radius: 5px;
+}
+.start2:hover
+{
+    background-color: rgb(181, 68, 68);
+}
+.em2
+{
+    width: 150%;
+    height: 100%;
+    padding: 10% 10%;
+    background-color: #1C2432;
+    /* background-color: blue; */
+    border: 0.5px solid snow;
+    color: snow;
+    border-radius: 5px;
+}
+.start2{
+    width: 100%;
+    height: 20%;
+    /* background-color: gray; */
+}
+.page2
+{
+    width: 100%;
+    height: 60svh;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 5px solid gray;
+    border-top: 5px solid gray;
+
+}
+.content
+{
+    width: 35%;
+    height: 70%;
+    /* background-color: gray; */
+}
+.picture
+{
+    width: 35%;
+    height: 70%;
+    background-image: url("tv1.jpg");
+    background-size: 100% 100%;
+    border-radius: 20px;
+    /* background-color: blue; */
+}
+.smart
+{
+    font-size: 25px;
+    color: snow;
+}
+.enjoy
+{
+    font-size: 40px;
+    color: snow;
+    /* background-color: gray; */
+    font-family: verdana;
+}
+.page3
+{
+    width: 100%;
+    height: 70svh;
+    background-color: black;
+    border-bottom: 5px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.milli
+{
+    width: 25%;
+    height: 75%;
+    /* background-color: gray; */
+    background-image: url("stranger.png");
+    background-size: 100% 100%;
+}
+.download
+{
+    width: 45%;
+    height: 70%;
+    /* background-color: rgb(119, 62, 62); */
+}
+.page4
+{
+    width: 100%;
+    height: 65svh;
+    background-color: black;
+    border-bottom: 5px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.watch
+{
+    width: 45%;
+    height: 70%;
+    /* background-color: rgb(119, 62, 62); */
+}
+.pic4
+{
+    width: 35%;
+    height: 75%;
+    background-color: rgb(158, 37, 37);
+    background-image: url("image4.png");
+    background-size: 100% 100%;
+}
+@media screen and (max-width:425px ) and (min-width:320px)
+{
+    /* .heading
+    {
+        font-size: 30px;
+    } */
+}
+.page5
+{
+    width: 100%;
+    height: 65svh;
+    background-color: black;
+    border-bottom: 5px solid rgb(104, 102, 102);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.kid
+{
+    width: 35%;
+    height: 80%;
+    /* background-color: gray; */
+    background-image: url("kids.png");
+    background-size: 100% 100%;
+}
+.page6
+{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    /* border-bottom: 5px solid rgb(71, 7, 7); */
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.freq
+{
+    color:white;
+}
+.container
+{
+    width: 80%;
+    height: 65svh;
+    background-color: gray;
+    row-gap: 20px;
+}
+.c1
+{
+    width: 100%;
+    height: 17%;
+    background-color: rgb(42, 44, 46);
+    border: 1px solid rgb(0, 0, 0);
+    /* row-gap: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 15px;
+    color:snow
+}
+.in
+{
+    width: 20%;
+    height: 20%;
+    background-color: aliceblue;
+    /* display: block; */
+    /* overflow: hidden; */
+}
+.c1:hover
+{
+    background-color: rgb(66, 63, 63);
+    transition: 0.2s all;
+}
+.he,.cross
+{
+    font-size: 25px;
+    font-family: verdana;
+}
+.ready
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(6, 6, 6);
+    border-bottom:25px solid rgb(48, 46, 46);
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.member
+{
+    font-size: 21px;
+    font-family: verdana;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    color:snow;
+    position: relative;
+    top:-10px;
+    /* text-align: center; */
+}
+.email2
+{
+    width: 150%;
+    height: 100%;
+    /* background-color:gray; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:-20%;
+    justify-content: space-evenly;
+    /* justify-self: center; */
+    position: relative;
+    top:-10px;
+}
+.btn2
+{
+    width: 140px;
+    height: 30px;
+    background-color: red;
+    color: snow;
+    font-size: 19px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-family: verdana;
+}
+.btn2:hover
+{
+    background-color: rgb(181, 68, 68);;
+}
+.emm
+{
+    width: 280px;
+    height: 50px;
+    background-color: #1C2432;
+    border: 0.5px solid snow;
+    color:snow;
+}
+.pages7
+{
+    width: 100%;
+    height: 60%;
+    background-color: black;
+    color:snow;
+    position: relative;
+    top:-22px;
+}
+.footer
+{
+    width: 100%;
+    height: 50svh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.con2
+{
+    width: 60%;
+    height: 80%;
+    /* margin:40px 20px; */
+    /* background-color: gray; */
+}
+.que
+{
+    font-size: 17px;
+}
+.help
+{
+    width: 100%;
+    height: 50%;
+    /* background-color: pink; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.help1
+{
+    width: 20%;
+    height: 105%;
+    /* background-color: rgb(20, 69, 112); */
+}
+.sym
+{
+    font-size: 0px;
+}
+/* .help1:hover
+{
+    cursor: pointer;
+    font-size: 18px;
+} */
+.n11:hover
+{
+    font-size: 18px;
+    transition: all 0.5s;
+}
+.n12:hover
+{
+    font-size: 18px;
+    transition: all 0.5s;
+
+}.n13:hover
+{
+    font-size: 18px;
+    transition: all 0.5s;
+
+}.n14:hover
+{
+    font-size: 18px;
+    transition: all 0.5s;
+
+}.n15:hover
+{
+    font-size: 18px;
+    transition: all 0.5s;
+
+}
+.n16:hover
+{
+    font-size: 18px;
+    transition: all 0.5s;
+
+}.n17:hover
+{
+    font-size: 18px;
+    transition: all 0.5s;
+
+}.n18:hover
+{
+    font-size: 18px;
+    transition: all 0.5s;
+
+}.n19:hover
+{
+    font-size: 18px;
+    transition: all 0.5s;
+
+}.n20:hover
+{
+    font-size: 18px;
+    transition: all 0.5s;
+
+}.n21:hover
+{
+    font-size: 18px;
+    transition: all 0.5s;
+
+}
+.n22:hover
+{
+    font-size: 18px;
+    transition: all 0.5s;
+
+}.n23:hover
+{
+    font-size: 18px;
+    transition: all 0.5s;
+
+}.n24:hover
+{
+    font-size: 18px;
+    transition: all 0.5s;
+
+}.n25:hover
+{
+    font-size: 18px;
+    transition: all 0.5s;
+
+}

@@ -1,1 +1,1 @@
-# Netflix-Clone
+A Netflix clone built with React includes a static UI featuring a navigation bar, a large banner for the featured movie, and rows of movie posters. The layout is simple, using React components and CSS for styling, designed to resemble the Netflix interface without animations.
